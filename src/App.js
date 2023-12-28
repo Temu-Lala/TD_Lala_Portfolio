@@ -8,16 +8,13 @@ import Works from './components/Works';
 import Test from './components/Test';
 import Hero_3D from './components/Hero_3D';
 import Background from './img/background.png';
-import Cv from './components/Cv';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <div className="relativ text-white">
-        <Routes>
-          <Route path="/cv" element={<Cv />} />
-        </Routes>
+       
 
         <div className="scroll-content">
           <Hero onClick={() => {}} />
