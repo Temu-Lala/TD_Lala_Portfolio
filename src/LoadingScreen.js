@@ -6,6 +6,8 @@ import lodinglogo from './lodinglogo.gif'
 const LoadingScreen = () => {
   return (
     <div className="loading-screen flex w-screen h-screen bg-black">
+              <p className=' font-bold text-2xl text-blue-600'>TEMESGEN DEBEBE</p>
+
       <img src={lodinglogo} alt='Lodding ...'></img>
       <p className=' font-bold text-2xl text-blue-600'>Lodding ...</p>
     </div>
