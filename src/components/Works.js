@@ -89,33 +89,84 @@ const web_development=()=>
           
           <p class = " text-4xl text-cyan-400">Click <TouchAppIcon/> To see Somting</p></p>
           </div>
-          <div class=" lists font-bold text-2xl pl-36">
+          <div class=" lists font-bold text-2xl pl-36 pt-10">
             
             <div class="relative mb-6 text-2xl cursor-pointer" >
-              
-              <Tippy className = " bg-transparent text-white w-16 h-16 hints" content=" You Can See by Rotating Of The 3D Models Check Tt" visible={visible} onClickOutside={hide}>
-      <div onMouseOver={visible ? hide : showtip}>
-      <p onMouseOver={web_development} class="absolute bottom-0 left-0 text-white hover:animate-bounce ">Web Development</p>
-              <p onMouseOver={web_development} class=" text-white hover:animate-bounce"> Web Development</p>
-      </div>
+            <button onMouseOver={web_development}>
+            <p  class=" text-white hover:animate-bounce"> Web Development</p>
+    <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+    </div>
+    <span id="rightArrow" class="arrow"></span>
+    <span id="leftArrow" class="arrow"></span>
+</button>
       
-    </Tippy>
+             
+     
+      
             </div>
             <div class="relative mb-6  cursor-pointer" >
-              <p onMouseOver={phone} class="absolute bottom-0 left-0 text-white hover:animate-bounce">Android App Development</p>
-              <p onMouseOver={phone} class=" text-white hover:animate-bounce"> Android App Development</p>
+              <button onMouseOver={phone}>
+              <p  class=" text-white hover:animate-bounce"> Android App Development</p>
+    <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+    </div>
+    <span id="rightArrow" class="arrow"></span>
+    <span id="leftArrow" class="arrow"></span>
+</button>
             </div>
             <div class="relative mb-6  cursor-pointer" >
-              <p onMouseOver={desktop} class="absolute bottom-0 left-0  text-white hover:animate-bounce">Desktop App Development</p>
-              <p onMouseOver={desktop} class="text-white hover:animate-bounce"> Desktop App Development</p>
+
+              <button onMouseOver={desktop}>
+              <p  class="text-white hover:animate-bounce"> Desktop App Development</p>
+    <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+    </div>
+    <span id="rightArrow" class="arrow"></span>
+    <span id="leftArrow" class="arrow"></span>
+</button>
+
             </div>
             <div class="relative mb-6  cursor-pointer" >
-              <p onMouseOver={switch_cisco} class="absolute bottom-0 left-0 text-white hover:animate-bounce">Cisco Networking</p>
-              <p onMouseOver={switch_cisco} class=" text-white hover:animate-bounce"> Cisco Networking</p>
+              <button onMouseOver={switch_cisco}>
+              <p  class=" text-white hover:animate-bounce"> Cisco Networking</p>
+    <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+    </div>
+    <span id="rightArrow" class="arrow"></span>
+    <span id="leftArrow" class="arrow"></span>
+</button>
+
+
+
             </div>
             <div class=" relative  mb-6  cursor-pointer" >
-              <p onMouseOver={uiclick} class=" absolute top-0 left-0 text-white hover:animate-bounce  ">UI Development</p>
-              <p onMouseOver={uiclick} class=" text-white hover:animate-bounce ">UI Development </p>
+              <button onMouseOver={uiclick}>
+              <p  class=" text-white ">UI Development </p>
+    <div id="clip">
+        <div id="leftTop" class="corner"></div>
+        <div id="rightBottom" class="corner"></div>
+        <div id="rightTop" class="corner"></div>
+        <div id="leftBottom" class="corner"></div>
+    </div>
+    <span id="rightArrow" class="arrow"></span>
+    <span id="leftArrow" class="arrow"></span>
+</button>
+
+
+
             </div>
          
           </div>
