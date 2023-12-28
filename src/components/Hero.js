@@ -73,7 +73,7 @@ function Hero() {
         </div>
         </div>
 
-        <div class="photo flex  w-full flex-1   ">
+        <div class="photo flex  w-full flex-1    ">
 
 <img class=" right-side" src={Myphoto} />
 
