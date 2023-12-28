@@ -6,3 +6,12 @@ transform: scale(1.5);
 transition: transform 0.2s ease-in-out;
 
 }
+.logo
+{
+    background-image: url("../img//logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}

@@ -79,13 +79,13 @@ const web_development=()=>
  
   return (
 
-    <div class = " hero h-screen w-screen flex flex-col bg-transparent">
+    <div id='work' class = " hero h-screen w-screen flex flex-row lg:flex-col bg-transparent">
       
       <div class=" h-screen  flex  justify-center w-screen justify-items-center gap-16">
       <div  class="left  flex justify-start items-center w-full  ">       
            <div class=" justify-start items-center w-full gap-20 ">
           <div class="gap-24 ">
-          <p class="font-bold text-4xl pl-24 ">Skills 
+          <p class="font-bold text-4xl pl-40 lg:pl-24 ">Skills 
           
           <p class = " text-4xl text-cyan-400">Click <TouchAppIcon/> To see Somting</p></p>
           </div>

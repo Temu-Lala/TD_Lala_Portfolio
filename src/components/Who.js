@@ -3,86 +3,215 @@ import lala from '../img/lala2.png'
 import ss from '../img/ss.png'
 import ss2 from '../img/ss2.jpg'
 import ss3 from '../img/ss3.png'
-import laladbu from '../img/laladbu.jpg'
 import cisco from '../img/cisco.jpg'
 import rotate from '../img/rotate.gif'
 import TouchAppIcon from '@mui/icons-material/TouchApp';
-
+import Bluehome from '../img/bluhome.png'
+import { Link } from 'react-router-dom'
 import './Who.css'
 function Who() {
   return (
-    <div class = " w-screen h-screen flex flex-col gap-24">
-      <div class="flex flex-row w-full h-96  gap-28 pl-36 ">
-        <div class = "mycards w-1/4 h-96   text-white  text-center    sm:shadow  border border-yellow-300 ">
-          <img class=" w-full h-60 " src={ss}/>
-          <p class = "flex items-end"> This project is a real-time live chat application built with the following technologies:
-          </p>
-          <div class = "grid grid-cols-2">
-          <div>
-          <p class = "text-xl">Frontend:</p>
-<ul>
-  <li>React</li>
-  <li>Material UI</li>
-  <li>CSS</li>
+    <div id='who' className = " w-screen h-screen content-center items-center self-center relative  flex  flex-col  lg:flex-col gap-4 px-12 overflow-scroll">
+    <div className='lg:h-[60vh] w-full flex flex-col lg:flex-row content-center items-center self-center justify-center gap-5'>
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>Lala Live Chat</div>
+      <div class="ring rounded-xl">
+        <div class="card card1 relative rounded-xl"></div>
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">Lala Live Chat</h6>
+            <p className='para px-2'>This project is a real-time live chat application built with the following technologies</p>
 
-
-
-</ul>
-
+           <div className='flex justify-center gap-5 lang'>
+           <div className='tech'>
+              <p className='para font-bold'>Frontend</p>
+              <ul className='para'>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            <div className='tech'>
+              <p className='para font-bold'>Backend</p>
+              <ul className='para'>
+                <li>Node.js</li>
+                <li>Socket.io</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+           </div>
+            <div className='w-ful'>
+            <a className="mx-auto px-6 py-1 mt-1 bg-white text-black rounded-xl my-1 block w-fit btn" href="https://github.com/Temu-Lala/Lala-Chat" target='_blank'>View Code</a>
+            
+            </div>
+          
           </div>
-          <div> <p class = "text-xl">Backend:</p>
-<ul>
-  <li>Node.js</li>
-  <li>Socket.io</li>
-  <li>MySQL</li>
-
-
-</ul></div>
-
-</div>
-
-          
         </div>
-        <div class = " mycards w-1/4 h-96   text-white   text-center   sm:shadow  border border-yellow-300  ">
-          <img class="w-full h-60 pb-8" src={ss2}/>
-          <p class = "flex items-end"> This project is a robust customer service application designed specifically for DAF Tech. It leverages the power of React for a seamless and intuitive user interface, while utilizing C# for efficient and reliable backend operations.
-</p>
-          
-        </div>
-        <div class = " mycards w-1/4 h-96   text-white   text-center   sm:shadow  border border-yellow-300 ">
-          <img class="w-full h-60 pb-4" src={ss3}/>
-          <p class = "flex items-end"> Maintaining proper hydration is crucial for optimal health and well-being. To help you achieve this goal, we've developed a user-friendly water intake calculator built with React.to calculate your personalized daily water intake based on your weight 
-</p>
-          
-        </div>
-        
-
       </div>
-      <div class="flex flex-row w-full h-96  gap-28 pl-36 ">
-        <div class = " mycards w-1/4 h-96   text-white   text-center   sm:shadow  border border-yellow-300 ">
-          <img class="w-full h-60 pb-8" src={laladbu}/>
-          <p class = "flex items-end"> I am a motivated and passionate student pursuing a degree in Software Engineering at Debre Birhan University. I am driven by a desire to create innovative solutions using the power of technology
-</p>
-          
-        </div>
-        <div class = "mycards w-1/4 h-96   text-white   text-center   sm:shadow  border border-yellow-300 ">
-          <img class="w-full h-60 pb-8" src={cisco}/>
-          <p class = "flex items-end">  I have successfully earned a Cisco Networking Certificate from Debre Birhan University. </p>
-          
-        </div>
-        <div class = " mycards w-1/4 h-96   text-white   text-center   sm:shadow  border border-yellow-300 ">
-          <img class="w-full h-60 pb-8" src={rotate}/>
-          <p class = "flex items-end text-2xl">Interact with 3D Models in a New Dimension: Double-Click to Rotate!</p>
-          <TouchAppIcon className = " rotate-180 w-28 h-28 fill-white hover:fill-black hover:animate-bounce "/>
-        </div>
-        
-
-      </div>
-      
-
-    
-      
     </div>
+    </div>
+
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>Daf Customer Support</div>
+      <div class="ring rounded-xl">
+        <div class="card card2 relative rounded-xl"></div>
+        
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">Daf Customer Support</h6>
+            <p className='para px-2'>This project is a robust customer service application designed specifically for DAF Tech. It leverages the power of React for a seamless and intuitive user interface, while utilizing C# for efficient and reliable backend operations. </p>
+
+           <div className='flex justify-center gap-5 lang'>
+           <div className='tech'>
+              <p className='para font-bold'>Frontend</p>
+              <ul className='para'>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            <div className='tech'>
+              <p className='para font-bold'>Backend</p>
+              <ul className='para'>
+                <li>ASP.net</li>
+                <li>Socket.io</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+           </div>
+            <div className='w-ful'>
+            <a className="mx-auto px-6 py-1 mt-1 bg-white text-black rounded-xl my-1 block w-fit btn" href="https://github.com/Temu-Lala" target='_blank'>View Code</a>
+            
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>DafTech Tools</div>
+      <div class="ring rounded-xl">
+        <div class="card card3 relative rounded-xl"></div>
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">DafTech Tools</h6>
+            <p className='para px-2'>This project is a robust customer service application designed specifically for DAF Tech. It leverages the power of React for a seamless and intuitive user interface, while utilizing C# for efficient and reliable backend operations.</p>
+
+           <div className='flex justify-center gap-5 lang'>
+           <div className='tech'>
+              <p className='para font-bold'>Frontend</p>
+              <ul className='para'>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            
+           </div>
+            <div className='w-ful'>
+            <a className="mx-auto px-6 py-1 mt-1 bg-white text-black rounded-xl my-1 block w-fit btn" href="https://github.com/Temu-Lala" target='_blank'>View Code</a>
+            
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+ 
+    </div>
+
+    <div className='lg:h-[60vh] w-full flex flex-col lg:flex-row  content-center items-center self-center justify-center gap-5 '>
+   
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>Blue Homes</div>
+      <div class="ring rounded-xl">
+        <div class="card card4 relative rounded-xl"></div>
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">Blue Homes</h6>
+            <p className='para px-2'>HomeSell is a comprehensive web application meticulously designed to streamline the process of selling homes. Its user-friendly interface empowers both admins and customers, enabling efficient property management and seamless user experiences.</p>
+
+           <div className='flex justify-center gap-5 lang'>
+           <div className='tech'>
+              <p className='para font-bold'>Frontend</p>
+              <ul className='para'>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </div>
+            <div className='tech'>
+              <p className='para font-bold'>Backend</p>
+              <ul className='para'>
+                <li>Django</li>
+                <li>Socket.io</li>
+                <li>Django REST Framwork</li>
+              </ul>
+            </div>
+           </div>
+            <div className='w-ful'>
+            <a className="mx-auto px-6 py-1 mt-1 bg-white text-black rounded-xl my-1 block w-fit btn" href="https://github.com/Temu-Lala/Sale-Home" target='_blank'>View Code</a>
+            
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>Cisco Certificate</div>
+      <div class="ring rounded-xl">
+        <div class="card card5 relative rounded-xl"></div>
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">Cisco Certificate</h6>
+            <p className='para px-2'>I have successfully earned a Cisco Networking Certificate from Debre Birhan University.</p>
+
+            <div className='w-ful'>
+            <a className="mx-auto px-6 py-1 mt-1 bg-white text-black rounded-xl my-1 block w-fit btn" href="../img/cisco.jpg" target='_blank'>View Certificate</a>
+            
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="container-card">
+    <div class="group panel rounded-xl">
+      <div className='absolute w-full text-center bottom-10 left-1/2 transform -translate-x-1/2 title-main z-10 group-hover:z-[-1] transition-all duration-300 text-blue-400'>3D Model</div>
+      <div class="ring rounded-xl">
+        <div class="card card6 relative rounded-xl"></div>
+        
+        <div class="border-card">
+          <div class="slide z-20">
+            <h6 class="para text-5xl font-semibold">3D Model</h6>
+            <p className='para px-2'>Interact with 3D Models in a New Dimension: Double-Click to Rotate!</p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
   )
 }
 
